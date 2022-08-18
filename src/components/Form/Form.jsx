@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../Button/Button'
 import Label from '../Label/Label'
 
 const Form = () => {
@@ -7,7 +6,6 @@ const Form = () => {
     <form>
     <Label texto='Digite o CEP:' />
     <input type="texto"></input>
-    <Button/>
     </form>
   )
 }
